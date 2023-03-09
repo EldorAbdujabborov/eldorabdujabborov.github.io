@@ -1,39 +1,313 @@
 * {
     margin: 0;
-    height: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.803);
 }
 
 header {
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/ac143dbc-6f01-43d8-bc5d-6077ffb68e38/UZ-ru-20230220-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-repeat: no-repeat;
-    /* background-size: ; */
+    background-size: 100%;
 }
 
 header {
     max-width: 1540px;
-    border: 1px solid red;
     margin: auto;
-    height: 1100px;
+    height: 800px;
+}
+
+header nav .kk h2 {
+    color: red;
 }
 
 header nav {
-    color: blue;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1300px;
-    border: 1px solid red;
     margin: auto;
     height: 100px;
 }
 
-header nav .ll .jaja {
-    height: 20px;
+header nav .ll button {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
 }
-header .ee{
+
+header nav .ll select {
+    width: 80px;
+    color: rgb(14, 14, 14);
+    background-color: rgba(245, 222, 179, 0);
+    height: 40px;
+}
+
+header nav .ll select :active {
+    border-color: white;
+}
+
+header .ee {
     margin-top: 50px;
     color: white;
     align-items: center;
-    max-width: 1000px;
-    
+    max-width: 1300px;
+    margin: auto;
+    /* height: 400px; */
+    margin-top: 100px;
+    text-align: center;
+}
+
+header .ee h1 {
+    font-size: 80px;
+}
+
+header .ee input {
+    font-size: 30px;
+    width: 400px;
+    height: 67px;
+    border-color: white;
+    padding: 5px;
+}
+
+header .ee input :active {
+    border-color: white;
+    border: 1px solid white;
+}
+
+header .ee button {
+    width: 320px;
+    font-size: 30px;
+    height: 80px;
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.java {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    max-width: 1540px;
+    background-color: black;
+}
+
+.java .java1 {
+    color: white;
+    text-align: center;
+    width: 820px;
+}
+
+.java .java1 img {
+    float: right;
+}
+
+.java .java1 h1 {
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+.java .java1 p {
+    font-size: 30px;
+}
+
+.jas {
+    display: flex;
+    max-width: 1540px;
+    margin-top: 10px;
+    height: 500px;
+    background-color: black;
+}
+
+.jas .jas1 {
+    color: white;
+    text-align: center;
+    width: 820px;
+}
+
+.jas .jas1 img {
+    float: right;
+}
+
+.jas .jas1 h1 {
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+.jas .jas1 p {
+    font-size: 30px;
+}
+
+.ozo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1540px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.ozo .ozo1 {
+    color: white;
+    text-align: center;
+    width: 820px;
+}
+
+.ozo .ozo1 img {
+    float: right;
+}
+
+.ozo .ozo1 h1 {
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+.ozo .ozo1 p {
+    font-size: 30px;
+}
+
+.lol {
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 1540px;
+    margin-top: 10px;
+    height: 500px;
+    background-color: black;
+}
+
+.lol .lol1 {
+    color: white;
+    text-align: center;
+    width: 820px;
+}
+
+.lol .lol1 img {
+    float: right;
+}
+
+.lol .lol1 h1 {
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+.lol .lol1 p {
+    font-size: 30px;
+}
+
+.baxruz {
+    max-width: 1540px;
+    height: 800px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.baxruz h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.baxruz .lif {
+    width: 800px;
+    margin: auto;
+    height: auto;
+}
+
+.baxruz .lif details {
+    margin-top: 10px;
+    background-color: rgba(57, 35, 35, 0.803);
+
+}
+
+.baxruz .lif details summary {
+    color: white;
+    font-size: 30px;
+}
+
+.baxruz .lif details p {
+    color: white;
+}
+
+
+.baxruz .ppp {
+    color: white;
+    margin: auto;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.baxruz .lac {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+}
+
+.baxruz .lac button {
+    width: 387px;
+    height: 80px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.baxruz .lac select {
+    width: 10px;
+    color: rgb(14, 14, 14);
+    background-color: rgba(245, 222, 179, 0);
+    height: 40px;
+}
+
+.baxruz .lac input {
+    font-size: 30px;
+    width: 400px;
+    height: 67px;
+    border-color: white;
+    padding: 5px;
+}
+
+.ooo {
+    max-width: 1540px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.ooo .kkk {
+    max-width: 900px;
+    margin: auto;
+    color: white;
+}
+
+
+.ooo .dos {
+    display: flex;
+    max-width: 900px;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ooo .dos .aaa {
+    max-width: 200px;
+}
+
+.ooo .ou {
+    max-width: 900px;
+    margin: auto;
+    color: rgb(237, 226, 226);
+}
+
+.ooo .lk select {
+    width: 100px;
+    color: rgb(205, 14, 14);
+    background-color: rgba(245, 222, 179, 0);
+    height: 50px;
 }
